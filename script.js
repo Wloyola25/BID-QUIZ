@@ -81,10 +81,52 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'If you save your array of objects to the browser’s local storage and it looks like [Object object] when you visit it in Chrome’s DevTools, what’s wrong?',
+        question: 'Commonly used data types DO NOT include?',
         answers: [
-            { text: 'The array wasn’t stringified with JSON.stringify( ) before saving it in Local Storage.', correct: true },
-            { text: 'The array wasn’t parsed with JSON.parse( ) before saving it to Local Storage.', correct: false },
+            { text: 'strings', correct: false },
+            { text: 'booleans', correct: true },
+            { text: 'alerts', correct: false },
+            { text: 'numbers', correct: false },
+        ]
+    },
+    
+    {
+        question: 'The condition in an if/else statement is enclosed with: ',
+        answers: [
+            { text: 'quotes', correct: false },
+            { text: 'curly brackets', correct: false },
+            { text: 'parenthesis', correct: true },
+            { text: 'square brackets', correct: false },
+        ]
+     },
+    
+    {
+        question: 'Arrays in Javascript can be used to store',
+        answers: [
+            { text: 'numbers and strings', correct: false },
+            { text: 'other arrays', correct: false },
+            { text: 'booleans', correct: false },
+            { text: 'all of the above', correct: true },
+         ]
+    },
+
+     {
+        question: 'a very useful tool used during developement and debugging for printing content to the debugger is',
+        answers: [
+            { text: 'JavaScript', correct: false },
+            { text: 'terminal/bash', correct: false },
+            { text: 'for loops', correct: true },
+            { text: 'console.log', correct: false },
         ]
     }
+    
 ]
+
+        
+
+
+
+
+
+
+
