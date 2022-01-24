@@ -4,9 +4,13 @@
 Basic quiz setup to test your knowledge in CSS. Think you can ace it?
 
 
+*CREATED WITH*
+* HTML 
+* CSS
 
 
-
+**VERSION** 
+*0.1 initial release
 
 
 **LINK**
